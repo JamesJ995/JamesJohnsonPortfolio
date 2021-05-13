@@ -1,0 +1,45 @@
+:root {
+    --deep: #2C3531;
+    --void: #116466;
+    --middle: #D9B08C;
+    --vibrant: #FFCB9A;
+    --almost-white: #D1E8E2;
+}
+
+body{
+    background-color: var(--void);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--deep);
+}
+
+header h1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    color: var(--middle);
+    padding: 15px;
+    margin-right: 1000px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -50px;
+}
+
+nav a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--middle);
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: var(--vibrant);
+    color: var(--void);
+}
