@@ -1,63 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>JamesJohnsonPortfolio</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>James Johnson - Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
-
 <body>
 
-    <header>
+    <div class="header">
         <h1>James Johnson</h1>
-        <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contact-me">Contact Me</a>
-            <a href="#resume">Resume</a>
-        </nav>
-    </header>
-
-    <section class="about-me">
-        <h2 id="about-me">About Me</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium autem illum laborum, laboriosam tempore velit aliquam commodi ipsum. Sint deleniti ea consequuntur praesentium quibusdam hic earum corporis accusantium fuga omnis.
-        </p>
-    </section>
-
-    <section class="work">
-        <h2 id="work">Work</h2>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad unde dolorum magni vel quam blanditiis ut incidunt error est facilis vitae, ducimus nemo natus beatae tempora dicta eum corrupti eligendi?
-        </p>
-    </section>
-
-    <section class="contact-me">
-        <h2 id="contact-me">Contact Me</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto animi cumque dolore eos. Consectetur error repellendus quod vitae autem ut sit accusamus praesentium labore exercitationem, dolores placeat ipsam non ratione?
-        </p>
-        <form>
-            <p>
-                <label for="username">Name:</label>
-                <input class="text-input" id="username" type="text" placeholder="First Last" />
-            </p>
-            <p>
-                <label for="email">E-mail:</label>
-                <input class="text-input" id="email" type="text" placeholder="me@example.com" />
-            </p>
-            <p>
-                <label for="message">Message:</label>
-                <textarea class="text-input" id="message" placeholder="Type message here"></textarea>
-            </p>
-            <p>
-                <button>Submit</button>
-            </p>
-        </form>
-    </section>
-
+        <p>Portfolio</p>
+    </div>
+      
+    <div class="topnav">
+        <a href="#">About Me</a>
+        <a href="#">Work</a>
+        <a href="#">Contact Me</a>
+        <a href="#" style="float:right">Resume</a>
+    </div>
+      
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h1>Work</h1>
+                <h5>Code Refactor</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div class="card-small">
+                <h5>Future Project</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div class="card-small">
+                <h5>Future Project</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div class="card-small">
+                <h5>Future Project</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h1>About Me</h1>
+                <div class="fakeimg" style="height:100px;">Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+            <form>
+                <h1>Contact Me</h1>
+                <p>
+                    <label for="username">Name:</label>
+                    <input class="text-input" id="username" type="text" placeholder="First Last" />
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input class="text-input" id="email" type="text" placeholder="me@example.com" />
+                </p>
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea class="text-input" id="message" placeholder="Type message here"></textarea>
+                </p>
+                <p>
+                    <button>Submit</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+      
 </body>
 </html>
