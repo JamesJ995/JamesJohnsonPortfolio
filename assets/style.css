@@ -188,6 +188,14 @@ button {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .fakeimg {
+        width: 50%;
+        padding: 0;
+        height: 50%;
+    }
+}
+
 @media screen and (max-width: 1700px) {
     #Horiseon {
         width: 100%;
