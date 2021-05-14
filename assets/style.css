@@ -18,6 +18,7 @@ body {
 
 .card h1 {
     font-size: 100px;
+    color: var(--deep);
 }
 
 form h1 {
@@ -29,10 +30,12 @@ form h1 {
     padding: 30px;
     text-align: center;
     background: var(--middle);
+    color: var(--deep);
 }
   
 .header h1 {
     font-size: 50px;
+    color: var(--deep);
 }
 
 /* Style the top navigation bar */
@@ -114,6 +117,7 @@ form h1 {
 
 .card p {
     padding-top: 15px;
+    color: var(--deep);
 }
   
 /* Add a card effect for articles */
